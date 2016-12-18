@@ -78,6 +78,6 @@ SegCode32Len equ $ - LABEL_SEG_CODE32
 
 Message: db "Long live the Great Emperor Xuan!!"
 Hello: db "hello, world"
-Boot: dw 0xFCFD
+Boot:
 times 382-($-$$) db 0
 dw 0xaa55
